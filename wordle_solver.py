@@ -290,7 +290,7 @@ class WordleSolver(object):
             if not self.possible_words:
                 print(f"\nRobot has determined that there are no possible words remaining! This may be due to one of the following reasons:")
                 print("1. The guess results were entered incorrectly")
-                print("2. The target word is not in the robot's lexicon")
+                print("2. The target word is not in the robot's lexicon\n")
                 self.possible_words = None
                 return
             print(f"\nRobot has narrowed the possible words down to the following: {self.possible_words}\n")
