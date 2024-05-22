@@ -203,7 +203,7 @@ class WordleSolver(object):
         self.possible_words = None
         return None
 
-    def train(self, filename, num_trainings, testing_mode=False):
+    def train(self, num_trainings, testing_mode=False):
         results = dict()
         for count in range(1, self.num_tries + 1):
             results[count] = 0
