@@ -126,7 +126,7 @@ class WordleSolver(object):
             wrong_positions_for_yellow_letter = green_positions.union(positions)
             if yellow_letter in grey_letters:
                 wrong_positions_for_yellow_letter = wrong_positions_for_yellow_letter.union(grey_letters[yellow_letter])
-            valid_positions_for_yellow_letter = set(range(5)).difference(wrong_positions_for_yellow_letter)
+            valid_positions_for_yellow_letter = set(range(self.game.word_length)).difference(wrong_positions_for_yellow_letter)
             yellow_letters_possible_positions[yellow_letter] = valid_positions_for_yellow_letter
         for position, char in enumerate(word_checked):
             if position not in green_positions:
