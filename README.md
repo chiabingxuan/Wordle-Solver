@@ -15,7 +15,7 @@ The bot was subjected to 10000 testing games, both before and after training. Th
 For an untrained bot that simply chose words randomly, it had a success rate of around 97%, with an average of 4.27 attempts per successful game. After training on 50000 simulation games with epsilon = 0.25, the bot improved to a success rate of 99.2%, with an average of 3.65 attempts per successful game.
 
 ## How to Use
-The bot provided in the repository, `wordle_bot.pkl`, was trained on 200000 simulation games.
+The bot provided in this repository, `wordle_bot.pkl`, was trained on 200000 simulation games.
 
 1. Clone the repository as follows:
 ```
