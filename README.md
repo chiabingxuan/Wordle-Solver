@@ -12,7 +12,7 @@ cd Wordle-Solver
 ```
 4. Install necessary packages:
 ```
-pip install -r requirements
+pip install -r requirements.txt
 ```  
 5. Run the program:
 ```
