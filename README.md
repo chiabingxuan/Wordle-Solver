@@ -10,7 +10,11 @@ git clone https://github.com/chiabingxuan/Wordle-Solver.git
 ```
 cd Wordle-Solver
 ```
-4. Run the program:
+4. Install necessary packages:
+```
+pip install -r requirements
+```  
+5. Run the program:
 ```
 python main.py
 ```
