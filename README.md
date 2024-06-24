@@ -1,4 +1,5 @@
 # Wordle Solver
+
 ## Introduction
 This project presents an implementation of the game "Wordle", as well as an intelligent bot that can play the game with a success rate of more than 99%, solving puzzles in an average of 3.65 attempts per successful game.
 
